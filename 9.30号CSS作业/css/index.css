@@ -1,0 +1,98 @@
+.first {
+    position: absolute; /* 使用绝对定位 */
+    left: 50%; /* 从左侧偏移50% */
+    transform: translate(-50%, 0); /* 通过transform实现居中 */
+    height: auto;
+    width: 35%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+#jltb {
+    height: 100%;
+    display: flex;
+    /* 使用Flexbox */
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /* 垂直居中 */
+}
+
+.title {
+    font-size: larger;
+    font-weight: bolder;
+    color: #0e88ad;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid;
+    float: left;
+}
+
+.stitle {
+    font-size: large;
+    font-weight: bolder;
+    float: left;
+    width: 80%;
+    height: 30px;
+}
+.stitle1 {
+    font-size: large;
+    font-weight: bolder;
+    
+    width: 5%;
+    height: auto;
+}
+
+.date {
+    text-align: right;
+    float: right;
+    width: 20%;
+    height: 30px;
+}
+
+.content1 {
+    font-size: large;
+    font-weight: bolder;
+    height: auto;
+    width: auto;
+    float: left;
+}
+
+.content2 {
+    height: auto;
+    width: auto;
+    
+}
+
+.content3 {
+    height: auto;
+    width: 88%;
+    float: left;
+}
+
+.dian {
+    font-size: large;
+    font-weight: bolder;
+    float: left;
+    height: auto;
+    text-align: center;
+}
+.dian2 {
+    font-size: large;
+    font-weight: bolder;
+    height: auto;
+    text-align: center;
+}
+
+.content4 {
+    height: auto;
+    width: 97%;
+    float: left;
+}
