@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>动态改变文档内容</title>
+</head>
+
+<body>
+    <h1>初始标题</h1>
+    <button id="changeTitle">改变标题</button>
+    <div id="currentTime" ></div>
+</body>
+
+</html>
+<script>
+    let timer = new Date()
+    
+    const stri = Array.from(document.getElementsByTagName('h1'));
+    
+    document.getElementById("changeTitle").onclick = function(){
+        document.getElementsByTagName('h1')[0].innerHTML = "欢迎来到我的网站";
+        document.getElementById('currentTime').innerHTML=timer.toLocaleString();
+    };
+</script>
